@@ -1,0 +1,12 @@
+.img-arbusto1{
+    bottom: -70px;
+    left: -110px;
+    max-width: 370px;
+}
+
+.img-arbusto2{
+    bottom: -70px;
+    right: -110px;
+    max-width: 370px;
+    transform: scaleX(-1);
+}
