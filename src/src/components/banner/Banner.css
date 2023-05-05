@@ -1,0 +1,29 @@
+.parallax{
+    height: 100vh;
+    background: url(../../assets/img/textura.jpg);
+    background-size: cover;
+}
+
+.parallaxChild{
+    position: relative;
+}
+
+.textParallax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgParallax{
+    width: 300px;
+}
+
+.blur{
+    filter: blur(2px);
+    transition: filter 0.2s ease-in-out;
+}
+
+.blur:hover{
+    filter: blur(0px);
+}

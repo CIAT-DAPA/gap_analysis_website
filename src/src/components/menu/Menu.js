@@ -26,7 +26,7 @@ function Menu() {
       style={{
         opacity: `${opacity}`,
       }}
-      className="position-fixed w-100 menu p-0"
+      className=" w-100 menu p-0"
     >
       <Container className="py-1">
         <Link className="navbar-brand d-flex align-items-center" to="/">
