@@ -3,6 +3,12 @@ import bean from "../../assets/img/beanCard.jpeg";
 import whiteBean from "../../assets/img/beanWhiteCard.jpeg";
 import barley from "../../assets/img/barleyCard.jpeg";
 import banana from "../../assets/img/bananaCard.jpeg";
+import chickpea from "../../assets/img/chickpeaCard.jpeg";
+import corn from "../../assets/img/cornCard.jpeg";
+import potato from "../../assets/img/potatoCard.jpeg";
+import wheat from "../../assets/img/wheatCard.jpg";
+import yam from "../../assets/img/yamCard.jpeg";
+import breadfruit from "../../assets/img/breadfruitCard.jpeg";
 import {
   MouseParallaxContainer,
   MouseParallaxChild,
@@ -27,49 +33,6 @@ function Banner() {
             }}
           >
             <figure style={{ "--c": "#000000a6" }}>
-              <img src={banana} alt="Mountains" className="imgParallax" />
-              <figcaption>
-                The Night
-                <br />
-                <p className="fs-5">
-                  Description of Barley fsad af qw fa a da sd as dqfqfqwq dq dw
-                </p>
-              </figcaption>
-            </figure>
-          </MouseParallaxChild>
-          <MouseParallaxChild
-            factorX={0.3}
-            factorY={0.3}
-            className="parallaxChild col text-center"
-            style={{
-              left: "",
-              top: "",
-              scale: "1.2",
-              zIndex: "1000",
-            }}
-          >
-            <figure style={{ "--c": "#000000a6" }}>
-              <img src={barley} alt="Mountains" className="imgParallax" />
-              <figcaption>
-                The Night
-                <br />
-                <p className="fs-5">
-                  Description of Barley fsad af qw fa a da sd as dqfqfqwq dq dw
-                </p>
-              </figcaption>
-            </figure>
-          </MouseParallaxChild>
-          <MouseParallaxChild
-            factorX={0.2}
-            factorY={0.2}
-            className="parallaxChild col text-center"
-            style={{
-              left: "",
-              top: "",
-              scale: "1.1",
-            }}
-          >
-            <figure style={{ "--c": "#ffffffa6" }}>
               <img src={bean} alt="Mountains" className="imgParallax" />
               <figcaption>
                 The Night
@@ -87,11 +50,54 @@ function Banner() {
             style={{
               left: "",
               top: "",
-              scale: "1.1",
+              scale: "0.8",
+              zIndex: "1000",
             }}
           >
             <figure style={{ "--c": "#000000a6" }}>
               <img src={whiteBean} alt="Mountains" className="imgParallax" />
+              <figcaption>
+                The Night
+                <br />
+                <p className="fs-5">
+                  Description of Barley fsad af qw fa a da sd as dqfqfqwq dq dw
+                </p>
+              </figcaption>
+            </figure>
+          </MouseParallaxChild>
+          <MouseParallaxChild
+            factorX={0.2}
+            factorY={0.2}
+            className="parallaxChild col text-center"
+            style={{
+              left: "",
+              top: "",
+              scale: "0.9",
+            }}
+          >
+            <figure style={{ "--c": "#ffffffa6" }}>
+              <img src={barley} alt="Mountains" className="imgParallax" />
+              <figcaption>
+                The Night
+                <br />
+                <p className="fs-5">
+                  Description of Barley fsad af qw fa a da sd as dqfqfqwq dq dw
+                </p>
+              </figcaption>
+            </figure>
+          </MouseParallaxChild>
+          <MouseParallaxChild
+            factorX={0.3}
+            factorY={0.3}
+            className="parallaxChild col text-center"
+            style={{
+              left: "",
+              top: "",
+              scale: "0.9",
+            }}
+          >
+            <figure style={{ "--c": "#000000a6" }}>
+              <img src={banana} alt="Mountains" className="imgParallax" />
               <figcaption>
                 The Night
                 <br />
@@ -111,10 +117,11 @@ function Banner() {
               left: "",
               top: "0",
               zIndex: "1000",
+              scale: "0.9",
             }}
           >
             <figure style={{ "--c": "#000000a6" }}>
-              <img src={banana} alt="Mountains" className="imgParallax" />
+              <img src={chickpea} alt="Mountains" className="imgParallax" />
               <figcaption>
                 The Night
                 <br />
@@ -147,10 +154,11 @@ function Banner() {
               left: "",
               top: "",
               zIndex: "1000",
+              scale: "0.8",
             }}
           >
             <figure style={{ "--c": "#000000a6" }}>
-              <img src={barley} alt="Mountains" className="imgParallax" />
+              <img src={corn} alt="Mountains" className="imgParallax" />
               <figcaption>
                 The Night
                 <br />
@@ -169,11 +177,11 @@ function Banner() {
             style={{
               left: "",
               top: "",
-              scale: "1.2",
+              scale: "0.8",
             }}
           >
             <figure style={{ "--c": "#000000a6" }}>
-              <img src={bean} alt="Mountains" className="imgParallax" />
+              <img src={potato} alt="Mountains" className="imgParallax" />
               <figcaption>
                 The Night
                 <br />
@@ -190,12 +198,12 @@ function Banner() {
             style={{
               left: "",
               top: "",
-              scale: "1.1",
+              scale: "0.9",
               zIndex: "1000",
             }}
           >
             <figure style={{ "--c": "#000000a6" }}>
-              <img src={barley} alt="Mountains" className="imgParallax" />
+              <img src={wheat} alt="Mountains" className="imgParallax" />
               <figcaption>
                 The Night
                 <br />
@@ -215,7 +223,7 @@ function Banner() {
             }}
           >
             <figure style={{ "--c": "#000000a6" }}>
-              <img src={whiteBean} alt="Mountains" className="imgParallax" />
+              <img src={yam} alt="Mountains" className="imgParallax" />
               <figcaption>
                 The Night
                 <br />
@@ -232,11 +240,11 @@ function Banner() {
             style={{
               left: "",
               top: "",
-              scale: "1.2",
+              scale: "0.8",
             }}
           >
             <figure style={{ "--c": "#000000a6" }}>
-              <img src={banana} alt="Mountains" className="imgParallax" />
+              <img src={breadfruit} alt="Mountains" className="imgParallax" />
               <figcaption>
                 The Night
                 <br />
