@@ -26,7 +26,7 @@ function Menu() {
       style={{
         opacity: `${opacity}`,
       }}
-      className=" w-100 menu p-0"
+      className=" w-100 menu p-0 position-absolute"
     >
       <Container className="py-1">
         <Link className="navbar-brand d-flex align-items-center" to="/">
@@ -38,7 +38,7 @@ function Menu() {
           id="responsive-navbar-nav"
         >
           <Nav className="justify-content-end">
-            {/* <Link className="nav-link" to="/news" >Gap Analysis</Link> */}
+            <Link className="nav-link" to="/aboutUs" >About us</Link> 
             <a
               className="nav-link"
               href="https://docs.aclimate.org/en/latest/"
@@ -46,6 +46,14 @@ function Menu() {
               rel="noreferrer"
             >
               Map tool
+            </a>
+            <a
+              className="nav-link"
+              href="https://github.com/CIAT-DAPA/spcat_website"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Gap Analysis Code
             </a>
           </Nav>
         </Navbar.Collapse>

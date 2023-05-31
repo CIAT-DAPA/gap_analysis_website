@@ -13,7 +13,7 @@ import {
   MouseParallaxContainer,
   MouseParallaxChild,
 } from "react-parallax-mouse";
-import { Row } from "react-bootstrap";
+import { Button, Row } from "react-bootstrap";
 
 function Banner() {
   return (
@@ -32,13 +32,14 @@ function Banner() {
               bottom: "-10px",
             }}
           >
-            <figure style={{ "--c": "#000000a6" }}>
+            <figure style={{ "--c": "#ffffffa6" }} className="shadow">
               <img src={bean} alt="Mountains" className="imgParallax" />
               <figcaption>
-                The Night
+                Bean
                 <br />
                 <p className="fs-5">
-                  Description of Barley fsad af qw fa a da sd as dqfqfqwq dq dw
+                  A nutritious and versatile legume, source of protein and
+                  fiber. protein and fiber.
                 </p>
               </figcaption>
             </figure>
@@ -54,13 +55,13 @@ function Banner() {
               zIndex: "1000",
             }}
           >
-            <figure style={{ "--c": "#000000a6" }}>
+            <figure style={{ "--c": "#ffffffa6" }} className="shadow">
               <img src={whiteBean} alt="Mountains" className="imgParallax" />
               <figcaption>
-                The Night
+                White bean
                 <br />
                 <p className="fs-5">
-                  Description of Barley fsad af qw fa a da sd as dqfqfqwq dq dw
+                  Soft and versatile legume, rich in protein and fiber.
                 </p>
               </figcaption>
             </figure>
@@ -75,13 +76,13 @@ function Banner() {
               scale: "0.9",
             }}
           >
-            <figure style={{ "--c": "#ffffffa6" }}>
+            <figure style={{ "--c": "#ffffffa6" }} className="shadow">
               <img src={barley} alt="Mountains" className="imgParallax" />
               <figcaption>
-                The Night
+                Barley
                 <br />
                 <p className="fs-5">
-                  Description of Barley fsad af qw fa a da sd as dqfqfqwq dq dw
+                  Nutritious and versatile grain, source of fiber and minerals.
                 </p>
               </figcaption>
             </figure>
@@ -96,13 +97,14 @@ function Banner() {
               scale: "0.9",
             }}
           >
-            <figure style={{ "--c": "#000000a6" }}>
+            <figure style={{ "--c": "#000000a6" }} className="shadow">
               <img src={banana} alt="Mountains" className="imgParallax" />
               <figcaption>
-                The Night
+                Banana
                 <br />
                 <p className="fs-5">
-                  Description of Barley fsad af qw fa a da sd as dqfqfqwq dq dw
+                  Sweet and nutritious tropical fruit, rich in potassium and
+                  vitamins.
                 </p>
               </figcaption>
             </figure>
@@ -120,13 +122,14 @@ function Banner() {
               scale: "0.9",
             }}
           >
-            <figure style={{ "--c": "#000000a6" }}>
+            <figure style={{ "--c": "#000000a6" }} className="shadow">
               <img src={chickpea} alt="Mountains" className="imgParallax" />
               <figcaption>
-                The Night
+                Chickpea
                 <br />
                 <p className="fs-5">
-                  Description of Barley fsad af qw fa a da sd as dqfqfqwq dq dw
+                  Versatile legume with a nutty flavor, high in protein and
+                  fiber.
                 </p>
               </figcaption>
             </figure>
@@ -144,6 +147,7 @@ function Banner() {
               Welcome! Discover our unique crop accessions on our GAP analysis
               page.
             </p>
+            <Button className="text-white">Explore Map Tools</Button>
           </MouseParallaxChild>
 
           <MouseParallaxChild
@@ -157,13 +161,14 @@ function Banner() {
               scale: "0.8",
             }}
           >
-            <figure style={{ "--c": "#000000a6" }}>
-              <img src={corn} alt="Mountains" className="imgParallax" />
+            <figure style={{ "--c": "#000000a6" }} className="shadow">
+              <img src={corn} alt="Mountains" className="imgParallax shadow" />
               <figcaption>
-                The Night
+                Corn
                 <br />
                 <p className="fs-5">
-                  Description of Barley fsad af qw fa a da sd as dqfqfqwq dq dw
+                  Versatile cereal grain with a sweet taste, rich in
+                  carbohydrates and dietary fiber.
                 </p>
               </figcaption>
             </figure>
@@ -180,13 +185,14 @@ function Banner() {
               scale: "0.8",
             }}
           >
-            <figure style={{ "--c": "#000000a6" }}>
+            <figure style={{ "--c": "#000000a6" }} className="shadow">
               <img src={potato} alt="Mountains" className="imgParallax" />
               <figcaption>
-                The Night
+                Potato
                 <br />
                 <p className="fs-5">
-                  Description of Barley fsad af qw fa a da sd as dqfqfqwq dq dw
+                  Versatile starchy vegetable, a good source of carbohydrates
+                  and dietary fiber.
                 </p>
               </figcaption>
             </figure>
@@ -202,13 +208,14 @@ function Banner() {
               zIndex: "1000",
             }}
           >
-            <figure style={{ "--c": "#000000a6" }}>
+            <figure style={{ "--c": "#000000a6" }} className="shadow">
               <img src={wheat} alt="Mountains" className="imgParallax" />
               <figcaption>
-                The Night
+                Wheat
                 <br />
                 <p className="fs-5">
-                  Description of Barley fsad af qw fa a da sd as dqfqfqwq dq dw
+                  Versatile cereal grain, a staple in many diets, rich in
+                  carbohydrates and a good source of dietary fiber.
                 </p>
               </figcaption>
             </figure>
@@ -222,13 +229,14 @@ function Banner() {
               top: "",
             }}
           >
-            <figure style={{ "--c": "#000000a6" }}>
+            <figure style={{ "--c": "#ffffffa6" }} className="shadow">
               <img src={yam} alt="Mountains" className="imgParallax" />
               <figcaption>
-                The Night
+                Yam
                 <br />
                 <p className="fs-5">
-                  Description of Barley fsad af qw fa a da sd as dqfqfqwq dq dw
+                  Starchy root vegetable, rich in carbohydrates and a good
+                  source of dietary fiber, vitamins, and minerals.
                 </p>
               </figcaption>
             </figure>
@@ -243,20 +251,26 @@ function Banner() {
               scale: "0.8",
             }}
           >
-            <figure style={{ "--c": "#000000a6" }}>
+            <figure style={{ "--c": "#000000a6" }} className="shadow">
               <img src={breadfruit} alt="Mountains" className="imgParallax" />
               <figcaption>
-                The Night
+                Breadfruit
                 <br />
                 <p className="fs-5">
-                  Description of Barley fsad af qw fa a da sd as dqfqfqwq dq dw
+                  Tropical fruit with a starchy texture, often used as a staple
+                  food, rich in carbohydrates and a good source of dietary
+                  fiber.
                 </p>
               </figcaption>
             </figure>
           </MouseParallaxChild>
         </Row>
       </MouseParallaxContainer>
-      <div className="divider" />
+      <div className="divider">
+        <div
+          class="scroll-down-link scroll-down-arrow"
+        ></div>
+      </div>
     </>
   );
 }

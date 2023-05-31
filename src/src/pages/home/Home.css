@@ -1,5 +1,20 @@
 section {
-    scroll-snap-type: y mandatory;
-    scroll-snap-align: start;
-    height: 100vh;
+  height: 50vh;
+}
+
+.home-container {
+  background: linear-gradient(rgb(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+    url(../../assets/img/whiteTexture.png);
+  background-size: cover;
+}
+
+.sec-contact {
+  background-color: #85ffbd;
+  background: linear-gradient(35deg, #12492fce 0%, #fffb7dcc 100%),
+    url(../../assets/img/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 60px;
+  height: 380px;
 }
