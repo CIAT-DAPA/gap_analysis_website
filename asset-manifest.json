@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/www.gapanalysistools.org/static/css/main.4d57bd4f.css",
+    "main.js": "/www.gapanalysistools.org/static/js/main.d2c16af5.js",
+    "static/js/787.0bfccc2a.chunk.js": "/www.gapanalysistools.org/static/js/787.0bfccc2a.chunk.js",
+    "static/media/whiteTexture.png": "/www.gapanalysistools.org/static/media/whiteTexture.2cb4146af1b2b0811843.png",
+    "static/media/wheatCard.jpg": "/www.gapanalysistools.org/static/media/wheatCard.d34e0f8e8f33cf6b8beb.jpg",
+    "static/media/textura.jpg": "/www.gapanalysistools.org/static/media/textura.49ba09b7475318264262.jpg",
+    "static/media/bananaCard.jpeg": "/www.gapanalysistools.org/static/media/bananaCard.bc8631ad200c35e1b68f.jpeg",
+    "static/media/barleyCard.jpeg": "/www.gapanalysistools.org/static/media/barleyCard.0682713822d04613551d.jpeg",
+    "static/media/Julian.png": "/www.gapanalysistools.org/static/media/Julian.b3f8d0934f89cb231021.png",
+    "static/media/beanCard.jpeg": "/www.gapanalysistools.org/static/media/beanCard.0f217dd6faa391c4b7fe.jpeg",
+    "static/media/bg.jpg": "/www.gapanalysistools.org/static/media/bg.9ffa7a71ac3946784285.jpg",
+    "static/media/beanWhiteCard.jpeg": "/www.gapanalysistools.org/static/media/beanWhiteCard.975a66abe36cebc04846.jpeg",
+    "static/media/cornCard.jpeg": "/www.gapanalysistools.org/static/media/cornCard.2072a909d7b1921e1e13.jpeg",
+    "static/media/breadfruitCard.jpeg": "/www.gapanalysistools.org/static/media/breadfruitCard.07225644f4e5484bc2ae.jpeg",
+    "static/media/yamCard.jpeg": "/www.gapanalysistools.org/static/media/yamCard.da2db3faabd3a5fe2619.jpeg",
+    "static/media/chickpeaCard.jpeg": "/www.gapanalysistools.org/static/media/chickpeaCard.b21c6f051f529096db15.jpeg",
+    "static/media/potatoCard.jpeg": "/www.gapanalysistools.org/static/media/potatoCard.69f8e270f255e13bb901.jpeg",
+    "index.html": "/www.gapanalysistools.org/index.html",
+    "main.4d57bd4f.css.map": "/www.gapanalysistools.org/static/css/main.4d57bd4f.css.map",
+    "main.d2c16af5.js.map": "/www.gapanalysistools.org/static/js/main.d2c16af5.js.map",
+    "787.0bfccc2a.chunk.js.map": "/www.gapanalysistools.org/static/js/787.0bfccc2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d57bd4f.css",
+    "static/js/main.d2c16af5.js"
+  ]
+}
