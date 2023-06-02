@@ -41,7 +41,7 @@ function Menu() {
             <Link className="nav-link" to="/aboutUs" >About us</Link> 
             <a
               className="nav-link"
-              href="https://docs.aclimate.org/en/latest/"
+              href="https://viewer.gapanalysistools.org"
               target="_blank"
               rel="noreferrer"
             >
