@@ -1,0 +1,24 @@
+.icon-container{
+    height: 160px;
+    width: 160px;
+}
+
+.container{
+    justify-content: space-around;
+}
+
+.img-logo{
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+.bg-title {
+    background: linear-gradient(35deg, #12492f 0%, #fffb7dcc 100%),
+    url(../../assets/img/bg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-news {
+    padding-top: 6rem !important;
+}

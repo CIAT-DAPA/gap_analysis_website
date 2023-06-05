@@ -10,8 +10,8 @@ function Home() {
     <div className="home-container">
       <Banner></Banner>
 
-      <section className="container d-flex mt-5 px-5">
-        <Row className="align-items-center">
+      <section className="container d-flex mt-5 px-5 py-5">
+        <Row className="align-items-center flex-column-reverse flex-md-row">
           <Col className="">
             <p style={{textAlign: "justify"}}>
               Crop landraces have unique local agroecological and societal
@@ -34,7 +34,7 @@ function Home() {
           </Col>
         </Row>
       </section>
-      <section className="d-flex sec-contact justify-content-center">
+      <section className="d-flex sec-contact justify-content-center py-5">
         <Row className="align-items-center w-75 px-5 text-center ">
           <Col className="">
             <img

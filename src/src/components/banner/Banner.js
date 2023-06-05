@@ -147,7 +147,7 @@ function Banner() {
               Welcome! Discover our unique crop accessions on our GAP analysis
               page.
             </p>
-            <Button className="text-white">Explore Map Tools</Button>
+            <Button href="https://viewer.gapanalysistools.org" target="_blank" className="text-white">Explore Map Tools</Button>
           </MouseParallaxChild>
 
           <MouseParallaxChild

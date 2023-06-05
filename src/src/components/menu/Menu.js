@@ -38,7 +38,6 @@ function Menu() {
           id="responsive-navbar-nav"
         >
           <Nav className="justify-content-end">
-            <Link className="nav-link" to="/aboutUs" >About us</Link> 
             <a
               className="nav-link"
               href="https://viewer.gapanalysistools.org"
@@ -55,6 +54,9 @@ function Menu() {
             >
               Gap Analysis Code
             </a>
+            <Link className="nav-link" to="/aboutUs">
+              About us
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
