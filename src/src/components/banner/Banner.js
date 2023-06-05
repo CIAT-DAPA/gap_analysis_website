@@ -142,10 +142,9 @@ function Banner() {
               left: "",
             }}
           >
-            <h1>GAP Analysis</h1>
+            <h1>GAP ANALYSIS</h1>
             <p>
-              Welcome! Discover our unique crop accessions on our GAP analysis
-              page.
+            Welcome! Discover our GAP analysis tools.
             </p>
             <Button href="https://viewer.gapanalysistools.org" target="_blank" className="text-white">Explore Map Tools</Button>
           </MouseParallaxChild>

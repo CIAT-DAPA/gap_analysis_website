@@ -48,7 +48,7 @@ function Menu() {
             </a>
             <a
               className="nav-link"
-              href="https://github.com/CIAT-DAPA/spcat_website"
+              href="https://github.com/CIAT-DAPA/GapAnalysis"
               target="_blank"
               rel="noreferrer"
             >
