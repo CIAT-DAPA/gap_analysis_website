@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import "./Menu.css";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
+import logo from "../../assets/img/logo.png"
 
 function Menu() {
   const [opacity, setOpacity] = useState(1);
@@ -30,7 +31,7 @@ function Menu() {
     >
       <Container className="py-1">
         <Link className="navbar-brand d-flex align-items-center" to="/">
-          Gap Analysis
+        <img src={logo} className="me-2" style={{width: "40px"}}></img>Gap Analysis
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse
@@ -44,7 +45,7 @@ function Menu() {
               target="_blank"
               rel="noreferrer"
             >
-              Map tool
+              Viewer
             </a>
             <a
               className="nav-link"

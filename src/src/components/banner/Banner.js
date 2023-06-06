@@ -143,10 +143,14 @@ function Banner() {
             }}
           >
             <h1>GAP ANALYSIS</h1>
-            <p>
-            Welcome! Discover our GAP analysis tools.
-            </p>
-            <Button href="https://viewer.gapanalysistools.org" target="_blank" className="text-white">Explore Map Tools</Button>
+            <p>Welcome! Discover our GAP analysis tools.</p>
+            <Button
+              href="https://viewer.gapanalysistools.org"
+              target="_blank"
+              className="text-white"
+            >
+              Explore Viewer
+            </Button>
           </MouseParallaxChild>
 
           <MouseParallaxChild
@@ -266,9 +270,7 @@ function Banner() {
         </Row>
       </MouseParallaxContainer>
       <div className="divider">
-        <div
-          class="scroll-down-link scroll-down-arrow"
-        ></div>
+        <div class="scroll-down-link scroll-down-arrow"></div>
       </div>
     </>
   );
