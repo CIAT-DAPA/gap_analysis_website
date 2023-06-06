@@ -13,7 +13,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container my-5">
         <p style={{ textAlign: "justify" }}>
           Crop landraces have unique local agroecological and societal functions
           and offer important genetic resources for plant breeding. Recognition
@@ -30,8 +30,8 @@ const AboutUs = () => {
           landraces.
         </p>
 
-        <div className=" ">
-          <div>
+        <div className="">
+          <div className="" style={{marginTop: "190px", marginBottom: "80px"}}>
             <h1 className="text-center mt-5">Powered by</h1>
           </div>
           <div className="container d-flex row">
