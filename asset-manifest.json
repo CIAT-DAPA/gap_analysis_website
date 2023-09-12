@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f73fcaef.css",
-    "main.js": "/static/js/main.138ac1b1.js",
+    "main.js": "/static/js/main.d3847909.js",
     "static/js/787.0bfccc2a.chunk.js": "/static/js/787.0bfccc2a.chunk.js",
     "static/media/whiteTexture.png": "/static/media/whiteTexture.2cb4146af1b2b0811843.png",
     "static/media/wheatCard.jpg": "/static/media/wheatCard.d34e0f8e8f33cf6b8beb.jpg",
@@ -24,11 +24,11 @@
     "static/media/alliance.svg": "/static/media/alliance.cec2d34adecfe7295306a7965e598fba.svg",
     "index.html": "/index.html",
     "main.f73fcaef.css.map": "/static/css/main.f73fcaef.css.map",
-    "main.138ac1b1.js.map": "/static/js/main.138ac1b1.js.map",
+    "main.d3847909.js.map": "/static/js/main.d3847909.js.map",
     "787.0bfccc2a.chunk.js.map": "/static/js/787.0bfccc2a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f73fcaef.css",
-    "static/js/main.138ac1b1.js"
+    "static/js/main.d3847909.js"
   ]
 }
