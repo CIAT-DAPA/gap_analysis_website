@@ -49,7 +49,7 @@ function Menu() {
             </a>
             <a
               className="nav-link"
-              href="https://github.com/CIAT-DAPA/GapAnalysis"
+              href="https://github.com/CIAT-DAPA/gap_analysis_landraces"
               target="_blank"
               rel="noreferrer"
             >
