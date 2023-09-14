@@ -14,24 +14,49 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="container my-5">
-        <p style={{ textAlign: "justify" }}>
-          Crop landraces have unique local agroecological and societal functions
-          and offer important genetic resources for plant breeding. Recognition
-          of the value of landrace diversity and concern about its erosion on
-          farms have led to sustained efforts to establish ex situ collections
-          worldwide. The conservation and effective use of crop genetic
-          diversity are crucial to overcome challenges related to human
-          nutrition and agricultural sustainability. The degree of
-          representation of crop landrace diversity in ex situ conservation is
-          poorly understood, partly due to a lack of methods that can negotiate
-          both the anthropogenic and environmental determinants of their
-          geographic distributions. Here, we describe a novel spatial modelling
-          and ex situ conservation gap analysis modelling framework for crop
-          landraces.
+        <p>
+          Welcome to Gap Analysis, a dedicated initiative focused on unraveling
+          the intricate world of crop landraces and their global significance.
+          Our mission is rooted in the understanding that crop landraces play a
+          pivotal role in local agroecological systems and contribute invaluable
+          genetic resources crucial for plant breeding endeavors.
         </p>
 
+        <h3>Our Project</h3>
+        <p>
+          Crop landraces, with their distinctive local agroecological and
+          societal functions, stand as living testaments to centuries of
+          agricultural wisdom. They harbor genetic diversity that holds the key
+          to sustainable agriculture and improved human nutrition. However, the
+          threat of erosion looms over these invaluable resources, necessitating
+          concerted efforts towards their conservation.
+          <br />
+          At this project, we have embarked on an ambitious journey to shed
+          light on the status of ex situ collections of crop landraces
+          worldwide. Our pioneering spatial modeling and ex situ conservation
+          gap analysis framework seeks to bridge the gap in our understanding,
+          addressing both human-induced and environmental determinants that
+          shape their geographic distribution.
+        </p>
+
+        <h3>Meet Our Team</h3>
+        <p>
+          Behind the scenes, our dedicated team combines expertise in
+          statistics, data science and agronomy to bring this vision to life.
+          Our members draw from extensive experience in this specialized field.
+          Their collective efforts are anchored at the renowned Alliance of
+          Bioversity and the International Center for Tropical Agriculture
+          (CIAT), where they collaborate to pioneer advancements in landrace
+          conservation.
+          <br />
+          We are passionate about making a meaningful impact in the realm of
+          crop landraces, and we invite you to join us on this journey towards a
+          more sustainable and resilient agricultural future.
+        </p>
         <div className="">
-          <div className="" style={{marginTop: "190px", marginBottom: "80px"}}>
+          <div
+            className=""
+          >
             <h1 className="text-center mt-5">Powered by</h1>
           </div>
           <div className="container d-flex row">
